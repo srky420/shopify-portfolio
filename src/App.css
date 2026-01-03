@@ -228,15 +228,16 @@ html {
 /* Techstack */
 .techstack {
   list-style: none;
-  display: grid;
-  grid-template-columns: repeat(9, 1fr);
-  gap: 2rem;
-  place-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5rem;
   margin: 5rem 0;
 }
 
 .techstack li button {
-  font-size: 4rem;
+  font-size: 5rem;
   background: transparent;
   border: none;
   transition: 0.2s opacity linear;
@@ -563,10 +564,6 @@ html {
 
   .line-decor {
     right: 5rem;
-  }
-
-  .techstack {
-    grid-template-columns: repeat(4, 1fr);
   }
 
   .about, .contact {

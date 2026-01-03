@@ -20,26 +20,14 @@ export const Techstack = () => {
       >
         <li>
           <button>
+            <i class="fa-brands fa-shopify" style={{color: "#95bf47"}}></i>
+            <div className="tooltip">Shopify</div>
+          </button>
+        </li>
+        <li>
+          <button>
             <i className="devicon-html5-plain colored"></i>
             <div className="tooltip">HTML</div>
-          </button>
-        </li>
-        <li>
-          <button>
-            <i className="devicon-css3-plain colored"></i>
-            <div className="tooltip">CSS</div>
-          </button>
-        </li>
-        <li>
-          <button>
-            <i className="devicon-javascript-plain colored"></i>
-            <div className="tooltip">JavaScript</div>
-          </button>
-        </li>
-        <li>
-          <button>
-            <i className="devicon-typescript-plain colored"></i>
-            <div className="tooltip">TypeScript</div>
           </button>
         </li>
         <li>
@@ -50,20 +38,20 @@ export const Techstack = () => {
         </li>
         <li>
           <button>
-            <i className="devicon-redux-plain colored"></i>
-            <div className="tooltip">Redux</div>
+            <i className="devicon-javascript-plain colored"></i>
+            <div className="tooltip">JavaScript</div>
+          </button>
+        </li>
+        <li>
+          <button>
+            <i className="devicon-css3-plain colored"></i>
+            <div className="tooltip">CSS</div>
           </button>
         </li>
         <li>
           <button>
             <i className="devicon-tailwindcss-original colored"></i>
             <div className="tooltip">TailwindCSS</div>
-          </button>
-        </li>
-        <li>
-          <button>
-            <i className="devicon-bootstrap-plain colored"></i>
-            <div className="tooltip">Bootstrap</div>
           </button>
         </li>
       </ul>

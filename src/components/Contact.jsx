@@ -21,7 +21,7 @@ export const Contact = () => {
                     <div className="contact-text">
                         <p className="header">Let's work together</p>
                         <h2 className="heading">Contact Me</h2>
-                        <p className="para">I'm open to both on-site and remote jobs wether project based or contract based.</p>
+                        <p className="para">Feel free to reach out to me regarding any Shopify related projects or queries</p>
                         <div className="contact-info">
                             <div>
                                 <i className="fa-solid fa-location-dot"></i>
