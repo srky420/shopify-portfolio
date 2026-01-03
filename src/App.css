@@ -202,10 +202,12 @@ html {
 .hero-btn {
   text-decoration: none;
   color: white;
-  background-image: linear-gradient(90deg, blue, blueviolet);
+  background-image: linear-gradient(90deg, rgb(64, 125, 223), blueviolet);
   opacity: 1;
   transition: 0.2s opacity linear;
   margin-right: 1rem;
+  background-size: 300%;
+  animation: gradient-slide linear 10s infinite;
 }
 
 .hero-btn-outline {
@@ -622,6 +624,27 @@ html {
     font-size: 4rem;
     line-height: normal;
   }
+
+  .techstack {
+    gap: 4rem;
+  }
+
+  .techstack li button {
+    font-size: 4rem;
+  }
+}
+
+/* Hero span shine */
+.shine {
+  background-image: linear-gradient(65deg,#95BF47 0%, #95BF47 46%, rgba(255, 255, 255, 1) 48%, rgba(255, 255, 255, 1) 51%, #95BF47 53%, #95BF47 100%);
+  background-clip: text;
+  background-size: 400%;
+  background-repeat: no-repeat;
+  background-position: left;
+  color: transparent;
+  font-style: italic;
+  animation: shine 3s ease-in infinite;
+  padding: 0 12px;
 }
 
 /* Keyframes */
@@ -643,6 +666,36 @@ html {
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes gradient-slide {
+  0% {
+     background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes shine {
+  0% {
+    background-position: 100% 50%;
+  }
+  20% {
+    background-position: 0% 50%;
+    color: #95BF47;
+  }
+  21% {
+    background-position: 100% 50%;
+    color: #95BF47;
+  }
+  100% {
+    background-position: 100% 50%;
+    color: #95BF47;
   }
 }
 

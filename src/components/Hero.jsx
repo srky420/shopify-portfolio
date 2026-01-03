@@ -16,7 +16,7 @@ export const Hero = () => {
         <div className="hero">
             <div className={isIntersecting ? "hero-text from-left animate" : "hero-text from-left"}>
                 <p className="header">Hi I'm Shahrukh</p>
-                <h1>A <em style={{color: "#95BF47"}}>Shopify</em> Developer</h1>
+                <h1>A <span className="shine">Shopify</span> Developer</h1>
                 <a className="btn hero-btn" href={"./assets/resume.pdf"} target="_blank" download="Shahrukh-Resume" rel="noreferrer">Résumé</a>
                 <a className="btn hero-btn-outline" href="#work">Projects</a>
             </div>

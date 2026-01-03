@@ -20,14 +20,8 @@ export const Techstack = () => {
       >
         <li>
           <button>
-            <i class="fa-brands fa-shopify" style={{color: "#95bf47"}}></i>
+            <i className="fa-brands fa-shopify" style={{color: "#95bf47"}}></i>
             <div className="tooltip">Shopify</div>
-          </button>
-        </li>
-        <li>
-          <button>
-            <i className="devicon-html5-plain colored"></i>
-            <div className="tooltip">HTML</div>
           </button>
         </li>
         <li>
@@ -40,6 +34,12 @@ export const Techstack = () => {
           <button>
             <i className="devicon-javascript-plain colored"></i>
             <div className="tooltip">JavaScript</div>
+          </button>
+        </li>
+        <li>
+          <button>
+            <i className="devicon-html5-plain colored"></i>
+            <div className="tooltip">HTML</div>
           </button>
         </li>
         <li>
