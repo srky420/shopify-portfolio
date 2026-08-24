@@ -25,5 +25,14 @@ export const WORK = [
         desc: 'Manly Man Co. was one of the clients I worked with for 4 months. In this time, I completed several theme development tasks for them including header mega menu feature and live site issues fixes. I have also worked on, and fixed issues flagged by their Google Search Console so the site could be properly indexed and displayed on Google Search results. I also ensured their structured data snippet on home page, collection page and PDP are in compliance with proper Schema structure.',
         tech: ['Theme Development', 'Bug Fixes', 'Google Search Console', 'Structured Data'],
         availability: 'deployed'
+    },
+    {
+        link: 'https://www.seekinghealth.com/',
+        img: './assets/img/projects/seekinghealth-hp.png',
+        name: 'GTM, GA4, Dev and bug fixes',
+        title: 'Seeking Health',
+        desc: 'Built a complete analytics stack from scratch — created a new GTM container and GA4 property, implemented all standard Shopify events via the data layer, and integrated ConsentMo for GDPR-compliant cookie consent management. Also did custom development work and bug fixes for them.',
+        tech: ['GTM', 'GA4', 'Theme Development', 'Bug Fixes'],
+        availability: 'deployed'
     }
 ]
