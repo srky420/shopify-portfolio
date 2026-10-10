@@ -1,5 +1,14 @@
 export const WORK = [
     {
+        link: 'https://www.milbshop.com/',
+        img: './assets/img/projects/project-milb.jpeg',
+        name: 'Flagship Project',
+        title: 'Minor League Baseball',
+        desc: 'Led key workstreams in EcomExperts.io’s largest project to date — consolidating 120 individual Minor League Baseball team stores into a single unified Shopify store. Responsibilities included full customer migration across all team stores, product tags management and taxonomy restructuring to support the unified catalogue, collection creation for the merged store architecture, and theme development work to ensure a cohesive storefront experience across all teams.',
+        tech: ['Theme Migration', 'Data Migration', 'Theme Development', 'App development'],
+        availability: 'deployed'
+    },
+    {
         link: 'https://supergut.com/',
         img: './assets/img/projects/supergut-hp.jpeg',
         name: 'Theme Migration',
